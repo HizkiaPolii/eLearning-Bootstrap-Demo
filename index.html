@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="style/css/bootstrap.css" />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,20 +30,32 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container">
         <a class="navbar-brand" href="#">eLearning</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto d-flex gap-3">
             <li class="nav-item">
-              <a class="nav-link text-danger" href="#">Home</a>
+              <a class="nav-link text-danger" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Course</a>
+              <a class="nav-link" href="course.html">Course</a>
             </li>
             <li class="nav-item d-flex gap-2">
-              <button class="btn btn-outline-dark me-2">Sign Up</button>
-              <button class="btn custom-btn">Sign In</button>
+              <a href="signup.html"
+                ><button class="btn btn-outline-dark me-2">Sign Up</button></a
+              >
+              <a href="login.html"
+                ><button class="btn custom-btn">Sign In</button></a
+              >
             </li>
           </ul>
         </div>
@@ -48,43 +66,64 @@
     <div class="container hero-section">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <img src="public/src/img/image 7.png" class="img-fluid rounded shadow" alt="Universitas Sam Ratulangi" />
+          <img
+            src="public/src/img/image 7.png"
+            class="img-fluid rounded shadow"
+            alt="Universitas Sam Ratulangi"
+          />
         </div>
         <div class="col-md-8">
           <h2 class="fw-bold">Selamat Datang di eLearning</h2>
           <h4 class="text-danger">Universitas Sam Ratulangi</h4>
           <p>
-            Belajar tanpa batas, berkembang dengan budaya akademik yang unggul. Portal eLearning UNSRAT hadir untuk mendukung perjalanan Anda dalam meraih ilmu dan keterampilan melalui teknologi inovatif dan interaktif. Bersama, kita
-            wujudkan Universitas Sam Ratulangi yang <span>Unggul</span> dan <span>Berbudaya</span>! <br /><br />Temukan berbagai peluang tanpa batas untuk berkembang dan meraih masa depan yang lebih cerah bersama eLearning UNSRAT.
+            Belajar tanpa batas, berkembang dengan budaya akademik yang unggul.
+            Portal eLearning UNSRAT hadir untuk mendukung perjalanan Anda dalam
+            meraih ilmu dan keterampilan melalui teknologi inovatif dan
+            interaktif. Bersama, kita wujudkan Universitas Sam Ratulangi yang
+            <span>Unggul</span> dan <span>Berbudaya</span>! <br /><br />Temukan
+            berbagai peluang tanpa batas untuk berkembang dan meraih masa depan
+            yang lebih cerah bersama eLearning UNSRAT.
           </p>
           <ul>
-            <li>
-              <i class="fa-solid fa-chevron-right"></i> Kelas Online</li>
-            <li>
-              <i class="fa-solid fa-chevron-right"></i> Kuis Online</li>
+            <li><i class="fa-solid fa-chevron-right"></i> Kelas Online</li>
+            <li><i class="fa-solid fa-chevron-right"></i> Kuis Online</li>
           </ul>
-          <button class="btn custom-btn">Belajar Sekarang</button>
+          <a href="course.html"
+            ><button class="btn custom-btn">Belajar Sekarang</button></a
+          >
         </div>
       </div>
     </div>
 
     <!-- Info Section -->
-    <div class="container text-center py-5" style="margin-bottom: 3rem;">
+    <div class="container text-center py-5" style="margin-bottom: 3rem">
       <div class="row">
         <div class="col-md-3">
-          <i class="fa-solid fa-user-graduate" style="font-size: 8rem; color: #eb455f; margin-bottom: 2rem;"></i>
+          <i
+            class="fa-solid fa-user-graduate"
+            style="font-size: 8rem; color: #eb455f; margin-bottom: 2rem"
+          ></i>
           <p>Website Resmi Universitas Sam Ratulangi</p>
         </div>
         <div class="col-md-3">
-          <i class="fa-solid fa-pen-to-square" style="font-size: 8rem; color: #eb455f; margin-bottom: 2rem;"></i>
+          <i
+            class="fa-solid fa-pen-to-square"
+            style="font-size: 8rem; color: #eb455f; margin-bottom: 2rem"
+          ></i>
           <p>Test Potensi Akademik oleh LP3 UNSRAT</p>
         </div>
         <div class="col-md-3">
-          <i class="fa-solid fa-medal" style="font-size: 8rem; color: #eb455f; margin-bottom: 2rem;"></i>
+          <i
+            class="fa-solid fa-medal"
+            style="font-size: 8rem; color: #eb455f; margin-bottom: 2rem"
+          ></i>
           <p>eLearning Kuliah Kerja Terpadu Universitas Sam Ratulangi</p>
         </div>
         <div class="col-md-3">
-          <i class="fa-solid fa-tv" style="font-size: 8rem; color: #eb455f; margin-bottom: 2rem;"></i>
+          <i
+            class="fa-solid fa-tv"
+            style="font-size: 8rem; color: #eb455f; margin-bottom: 2rem"
+          ></i>
           <p>Daftar Panduan Penggunaan Portal e-Learning UNSRAT</p>
         </div>
       </div>
@@ -96,36 +135,35 @@
         <div class="row item-footer">
           <div class="col-md-3">
             <h5>About eLearning UNSRAT</h5>
-            <p>Portal eLearning Unsrat dikembangkan oleh Tim Pengembang UPT TIK UNSRAT, konten dikelola oleh LP3 UNSRAT.</p>
+            <p>
+              Portal eLearning Unsrat dikembangkan oleh Tim Pengembang UPT TIK
+              UNSRAT, konten dikelola oleh LP3 UNSRAT.
+            </p>
           </div>
           <div class="col-md-3">
             <h5>Quick Link</h5>
             <ul class="list-unstyled">
-              <li>
-                <i class="fa-solid fa-chevron-right"></i> Website Unsrat</li>
-              <li>
-                <i class="fa-solid fa-chevron-right"></i> eJournal Unsrat</li>
-              <li>
-                <i class="fa-solid fa-chevron-right"></i> Portal Akademik</li>
-              <li>
-                <i class="fa-solid fa-chevron-right"></i> Repo Unsrat</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Website Unsrat</li>
+              <li><i class="fa-solid fa-chevron-right"></i> eJournal Unsrat</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Portal Akademik</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Repo Unsrat</li>
             </ul>
           </div>
           <div class="col-md-3">
             <h5>Help</h5>
             <ul class="list-unstyled">
-              <li>
-                <i class="fa-solid fa-chevron-right"></i> Website Unsrat</li>
-              <li>
-                <i class="fa-solid fa-chevron-right"></i> eJournal Unsrat</li>
-              <li>
-                <i class="fa-solid fa-chevron-right"></i> Portal Akademik</li>
-              <li>
-                <i class="fa-solid fa-chevron-right"></i> Repo Unsrat</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Website Unsrat</li>
+              <li><i class="fa-solid fa-chevron-right"></i> eJournal Unsrat</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Portal Akademik</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Repo Unsrat</li>
             </ul>
           </div>
           <div class="col-md-3">
-            <img src="public/src/img/logounsrat.png" alt="" style="height: 150px; width: auto;">
+            <img
+              src="public/src/img/logounsrat.png"
+              alt=""
+              style="height: 150px; width: auto"
+            />
           </div>
         </div>
       </div>
